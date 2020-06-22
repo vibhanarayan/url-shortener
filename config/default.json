@@ -1,5 +1,5 @@
 {
-    "mongoURI" : "mongodb+srv://vibhanarayan28:MongodbAtlas@cluster0-moe8c.mongodb.net/test?retryWrites=true&w=majority", 
-    "mongoTestURI" : "mongodb+srv://vibhanarayan28:MongodbAtlas@cluster0-moe8c.mongodb.net/test2?retryWrites=true&w=majority",
+    "mongoURI" : "mongodb://localhost:27017/urlshortener", 
+    "mongoTestURI" : "mongodb://localhost:27017/testdb",
     "baseURL":"http://localhost:8080"
 }

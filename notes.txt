@@ -1,0 +1,25 @@
+#Documentation
+# Here are some test URLs
+
+# 1. https://www.google.com/search?sxsrf=ALeKk03glufJFJYTPClPN9iEU8mQ0JbCFA%3A1592780963242&ei=o-jvXoisDurF_Qbu0aRQ&q=tuna+salad&oq=tuna+salad&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzICCAAyAggAMgcIABAUEIcCMgIIADICCAAyAggAMgUIABCxAzICCAA6BwgAELADEENQqhBYpBJguRZoAHAAeACAAVmIAfgBkgEBM5gBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwjIiZO8g5TqAhXqYt8KHe4oCQoQ4dUDCAw&uact=5
+# 2. https://www.google.com/search?sxsrf=ALeKk02oB9sF-2LXv2Hj1fH-21XSJesM9w%3A1592780967409&ei=p-jvXpjKGMGf_Qbnop-4BA&q=rick+and+morty+season+4+episode+6&oq=rick+and+m&gs_lcp=CgZwc3ktYWIQAxgCMgUIABCxAzIFCAAQsQMyAggAMgUIABCxAzIECAAQQzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyAggAOgcIIxDqAhAnOgQIIxAnOgUIABCRAjoFCAAQgwE6BwgAELEDEENQu7gBWI3QAWDN4wFoAXAAeACAAXyIAdgGkgEDOC4ymAEAoAEBqgEHZ3dzLXdperABCg&sclient=psy-ab
+# 3. https://www.amazon.com/Vintage-Computer-Writing-Laptop-Espresso/dp/B07925F5HK/ref=sr_1_9?crid=2OLN7NDSDQ8B1&dchild=1&keywords=study+table&qid=1592781133&sprefix=study+tab%2Caps%2C155&sr=8-9
+# 4. https://www.amazon.com/15-inch-i5-1035G1-Windows-15-dy1036nr-Natural/dp/B085B5SXLY/ref=sr_1_8?dchild=1&keywords=Laptop&qid=1592781203&sr=8-8
+# 5. https://www.amazon.com/Death-Wish-Coffee-Strongest-Certified/dp/B006CQ1ZHI/ref=sr_1_5?crid=95PXYVJYHXVR&dchild=1&keywords=death+wish+coffee&qid=1592781247&sprefix=Death+%2Caps%2C260&sr=8-5
+
+
+##Assumptions 
+1. The short-id module will take care of creating shortcodes and the probabibilty of collision with this plugin is low. 
+It would be better to build that ground up. 
+
+
+
+###Things I would have liked to do better 
+
+
+1. I have used bootstrap to build a responsive site but also wrote my own css. 
+2. I have only written unit tests to test the db but not for the get and post requests 
+3. I would also have liked to change the Schema of the db to store an expiry date too and return that to the user. 
+4. The copy button is a little glitchy- It copies the link to a text area and appends that to the body of the page. 
+5. Would have liked to make an ajax request. 
+6. There's an overflow in the page if the user's long URL is very long 

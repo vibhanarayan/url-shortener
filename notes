@@ -1,6 +1,0 @@
-1. I have used bootstrap to build a responsive site but also wrote my own css. 
-2. I have only written unit tests to test the db but not for the get and post requests 
-3. I would also have liked to change the Schema of the db to store an expiry date too and return that to the user. 
-4. The copy button is a little glitchy- It copies the link to a text area and appends that to the body of the page. 
-5. Would have liked to make an ajax request. 
-6. There's an overflow in the page if the user's long URL is very long 
