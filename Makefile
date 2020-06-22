@@ -41,5 +41,6 @@ stop:
 
 # 1. Install node and check the version using `node -v`.Instructions to download and install Node are here for all platforms (https://nodejs.org/en/download/). The version of node used in this project is the latest stable version of node-12.8.1
 # 2. run `npm install`
-# 3. Navigate to config/defaults.json and change the value of mongoURI to be your mongo instance. You can use a local mongo instance or use MongoDB Atlas which is a hosted MongoDB service option in the cloud which requires no installation overhead and offers a free tier to get started.
+# 3. Navigate to config/defaults.json and change the value of mongoURI to be your mongo instance. You can use a local mongo instance or use MongoDB Atlas which is a hosted MongoDB service option in the cloud which requires no installation overhead and offers a free tier to get started. 
+# I used the cloud instance. Your local instance might be `mongodb://localhost:27017` or `mongodb://localhost:27017/dbname`
 # 4. run `npm run start` or run `npm run dev`
