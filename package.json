@@ -1,0 +1,35 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "The goal of this exercise is to create a URL shortener web application in the same vein as [bitly](https://bitly.com/), [TinyURL](https://tinyurl.com/), or the now defunct [Google URL Shortener](https://goo.gl/). It is intentionally open-ended and you are welcome to implement your solution using the language and tech stack of your choice, but the core functionality of the application should be expressed through your own original code. This is your opportunity to show off your design and development strengths to our engineering team.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test":"mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stordco/url-shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stordco/url-shortener/issues"
+  },
+  "homepage": "https://github.com/stordco/url-shortener#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
