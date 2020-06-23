@@ -8,19 +8,23 @@ const testSchema = new Schema({
     name: { type: String, required: true }
   });
 const Name = mongoose.model('Name', testSchema);
-it('Main page status', function(done) {
+
+describe('Test ejs templates', function(){
+  it('Main page status', function(done) {
     request('http://localhost:8080' , function(error, response, body) {
         expect(response.statusCode).to.equal(200);
         done();
     });
 });
+})
+
 
 describe('Database Tests', function() {
     
     before(function (done) {
       mongoose.connect(dbName,{
         useNewUrlParser:true,
-    useUnifiedTopology: true
+        useUnifiedTopology: true
       });
       const db = mongoose.connection;
       db.on('error', console.error.bind(console, 'connection error'));

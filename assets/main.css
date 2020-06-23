@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
 }
 body{
@@ -8,29 +8,22 @@ body{
     line-height: 1.5;
     font-weight: 400;
     font-size: 1rem;
-}
+} */
 
-.table{
+/* .table{
     width: 100%;
     margin-bottom: 1rem;
     color: #212529;
     box-sizing: border-box;
     border-top-color: #212529;
-}
+} */
 
 .container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-    box-sizing: border-box;
-    max-width: 1140px;
 }
 
-h1{
+/* h1{
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: .5rem;
@@ -95,7 +88,7 @@ input{
     text-align: center;
     vertical-align: middle;
 } 
-
+ */
 
 
 .bg-purple{
@@ -105,7 +98,7 @@ input{
     color: white;
     font-size:1.75rem;
 }
-.navbar-lg{
+/* .navbar-lg{
     flex-flow: row nowrap;
     justify-content: flex-start;
 }
@@ -120,7 +113,10 @@ input{
 .navbar a{
     text-decoration: none;
     font-size: 1.75rem;
+} */
+.table{
+ table-layout: fixed;
 }
-.table .full-url{
-    width: 45%;
+td{
+    word-wrap:break-word;
 }
